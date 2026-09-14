@@ -9,15 +9,17 @@ public class Multiples {
     }
 
     public static int multiples(int n,int a,int b) {
-        int i = 1;
-        int count_in_method = 0;
-        while(i < n){
-            if (i % a == 0 || i % b == 0){
-                count_in_method++;
-            }
-            i++;
-        }
-        return count_in_method;
+//        int i = 1;
+//        int count_in_method = 0;
+//        while(i < n){
+//            if (i % a == 0 || i % b == 0){
+//                count_in_method++;
+//            }
+//            i++;
+//        }
+//        return count_in_method;
+            return n / a + n / b - n / lcm(a, b) - 1;
+
     }
 
     public static int multiples(){
@@ -30,5 +32,20 @@ public class Multiples {
             i++;
         }
         return count_in_method;
+    }
+
+    static int lcm(int a, int b) {
+
+        // Larger value
+        int g = Math.max(a, b);
+
+        // Smaller value
+        int s = Math.min(a, b);
+
+        for (int i = g; i <= a * b; i += g) {
+            if (i % s == 0)
+                return i;
+        }
+        return a * b;
     }
 }

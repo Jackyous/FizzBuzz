@@ -483,7 +483,7 @@ a helper method called `reduce`. Then generalize that helper to take in `n` as a
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
 and run the tests — debugging as needed.
 
-- [ ] Finally, `add`, `commit`, and `push` your `Reduce.java`.
+- [x] Finally, `add`, `commit`, and `push` your `Reduce.java`.
 
 ## Further practice
 
