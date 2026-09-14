@@ -6,10 +6,10 @@ package lab1;
 class FizzBuzz {
     //manba out
     public static void main(String[] args) {
-        doFizzBuzz();
+        DoFizzBuzz();
     }
 
-    private static void doFizzBuzz() {
+    private static void DoFizzBuzz() {
         int i = 0;
         while(i <= 100){
         //for (int i = 1; i <= 100; i++) {
