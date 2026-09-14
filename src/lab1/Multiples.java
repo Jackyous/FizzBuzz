@@ -19,4 +19,16 @@ public class Multiples {
         }
         return count_in_method;
     }
+
+    public static int multiples(){
+        int i = 1;
+        int count_in_method = 0;
+        while(i < 1000){
+            if (i % 3 == 0 || i % 5 == 0){
+                count_in_method++;
+            }
+            i++;
+        }
+        return count_in_method;
+    }
 }
