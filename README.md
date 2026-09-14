@@ -244,7 +244,7 @@ a sequence of three git commands:
 
 - [x] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] Repeat the above steps for `README.md` (or try using the approach below).
+- [x] Repeat the above steps for `README.md` (or try using the approach below).
 
 > Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
@@ -271,7 +271,7 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [x] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
