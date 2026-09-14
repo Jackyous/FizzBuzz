@@ -286,18 +286,18 @@ It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [x] In your main method in `Main.java`, try making a call to your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
+- [x] Hover over the error; IntelliJ will suggest some fixes.
 
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [x] Click `More actions...` and you'll see a list of the various possible access modifiers.
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [x] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
@@ -316,7 +316,7 @@ through readings and coding exercises over the next few weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
+- [x] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
 for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
